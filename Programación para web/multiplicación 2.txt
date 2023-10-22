@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Sumar dos variables solicitadas en cuadro de diálogo y ver su resultado en cuadro de diálogo</title>
+</head>
+<body>
+<script>
+var primernumero;
+var segundonumero;
+var tercernumero;
+var multiplicacion;
+
+primernumero = window.prompt("Introduce el primer número");
+segundonumero = window.prompt("Introduce el segundo número");
+tercernumero = window.prompt("Introduce el tercer número");
+
+numerouno = parseInt(primernumero);
+numerodos = parseInt(segundonumero);
+numerotres = parseInt(tercernumero);
+multiplicacion = numerouno * numerodos * numerotres;
+
+// Mostrar el resultado en un cuadro de diálogo
+window.alert("el producto es: " + multiplicacion);
+</script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+#cabecera { 
+height: 10%;
+background-color: lightblue;
+}
+#nav{
+height:5%;
+background-color:lightgray;
+}
+
+#principal {
+display: flex;
+align-items:stretch;
+}
+
+#contenido {
+width: 80%;
+background-color: lemonchiffon;
+min-height: 80%;
+}
+
+#aside { 
+width: 20%;
+background-color:lightsalmon;
+min-height: 80%;
+}
+
+#pie {
+background-color: lightgreem;
+height: 5%; 
+}

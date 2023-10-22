@@ -1,0 +1,4 @@
+<meta charsete="utf-8"> <meta/>
+<meta name="author" content="Nombre Apellido"/>
+<meta name="keywords" content="primera pagina web"/>
+<meta name="description" content="ejemplo de pag web"/>

@@ -1,0 +1,13 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>naturaleza</title>
+</head>
+<body>
+    <p> <img src="proyecto1.png" width="700" heigth="414" title="Imagen del Proyecto 1" /></p
+    <p> <img src="proyecto1.png" width= "175" heigth="106" title="Imagen del Proyecto 1" /></p>
+    <p> <img src="proyecto1.png" title="Imagen del Proyecto 1" /></p>
+</body>
+</html>

@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mensaje</title>
+</head>
+<body>
+     <h1> Como programar en internet y World Wibe Web</h1>
+      <hr>
+    <p>Bienvenido al mundo de la programación en <a href="https://es.wikipedia.org/wiki/Internet" target="_blank">internet</a>.</p>
+    
+</body>
+</html>

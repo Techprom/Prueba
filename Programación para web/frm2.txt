@@ -1,0 +1,21 @@
+<html>
+<head><title>Formularios</title></head>
+<body>
+
+<h3>Formulario de Retroalimientación</h3>
+</br>
+<p>Llene este formulario para ayudarnos a mejorar nuestro sitio.</p>
+Nombre:
+  <input type="text" name="nombre" value="" />
+Cometarios:
+<label for="Comentarios">Comentarios</label> <br/>
+<textarea id="descripcion" name="descripcion" cols="40" rows="5"></textarea>
+
+  <br/>
+
+    <br/><input type="submit" value="Enviar" />
+  <input type="submit" value="Borrar" />
+</form>
+
+</body>
+</html>

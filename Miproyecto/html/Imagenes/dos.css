@@ -1,0 +1,19 @@
+<style>
+    .menu a {
+        display: block;
+        width: 100%;
+        padding: 10px 20px;
+        margin-bottom: 5px;
+        background-color: #4CAF50; /* Verde */
+        color: #fff; /* Texto blanco */
+        text-align: left;
+        text-decoration: none;
+        border: 2px solid #4CAF50; /* Bordes verdes */
+        border-radius: 5px; /* Esquinas redondeadas */
+        transition: background-color 0.3s;
+    }
+
+    .menu a:hover {
+        background-color: #45a049; /* Cambio de color al pasar el mouse */
+    }
+</style>

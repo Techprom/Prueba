@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semestral de Web</title>
+    <link rel="stylesheet" href="css/estilos.css"> <!-- Enlace al archivo CSS en la carpeta "css" -->
+    <script src="js/scripts.js" defer></script> <!-- Enlace al archivo JavaScript en la carpeta "js" -->
+</head>
+
+<body onload="cambiarFondoInicial()">
+    <table border="7" width="700">
+        <tr>
+            <td id="fondo-td" colspan="11" HEIGHT="300" WIDTH="300">
+                <p><img src="img/Fondo.jpg" width="1000px" height="300px"></p>
+            </td>
+        </tr>
+        <tr>
+            <td id="fila1" rowspan="8">
+                <div class="container">
+                    <div class="menu">
+                        <a href="javascript:void(0);" onclick="cambiarContenido('Inicio')" class="menu-item"
+                            id="botonInicio" data-fondo="Imagenes/Fondo.jpg">Inicio</a>
+                        <a href="javascript:void(0);" onclick="cambiarContenido('Javascript')" class="menu-item"
+                            id="botonJavascript" data-fondo="Imagenes/FondoJavascript.jpg">Javascript</a>
+                        <!-- Otros enlaces -->
+                    </div>
+                </div>
+            </td>
+            <tr>
+                <td id="definicion" colspan="2">
+                    <div class="section">
+                        <div class="web-code" id="web-code-definicion"></div>
+                        <div class="image-container" id="image-container-definicion"></div>
+                    </div>
+                </td>
+                <td class="new-column" id="image-column-definicion"></td>
+            </tr>
+            <tr>
+                <td id="historia" colspan="2">
+                    <div class="section">
+                        <div class="web-code" id="web-code-historia"></div>
+                        <div class="image-container" id="image-container-historia"></div>
+                    </div>
+                </td>
+                <td class="new-column" id="image-column-historia"></td>
+            </tr>
+            <tr>
+                <td id="beneficio" colspan="2">
+                    <div class="section">
+                        <div class="web-code" id="web-code-beneficio"></div>
+                        <div class="image-container" id="image-container-beneficio"></div>
+                    </div>
+                </td>
+                <td class="new-column" id="image-column-beneficio"></td>
+            </tr>
+    </table>
+</body>
+
+</html>
